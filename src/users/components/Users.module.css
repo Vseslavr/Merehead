@@ -1,0 +1,28 @@
+@media screen and (min-width: 961px) {
+  .userListRoot {
+    width: 50%;
+    margin-bottom: 5rem;
+}
+}
+
+@media screen and (max-width: 960px) {
+  .userListRoot {
+      width: 80%;
+      margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .userListRoot {
+      width: 100%;
+      min-width: 0;
+      margin-bottom: 5rem;
+  }
+}
+
+.paginator {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
